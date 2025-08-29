@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     '@nuxt/icon',
+    '@sidebase/nuxt-auth'
   ],
   app: {
     head: {
