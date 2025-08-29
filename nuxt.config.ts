@@ -10,5 +10,11 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/scripts',
     '@nuxt/icon',
-  ]
+  ],
+  app: {
+    head: {
+      title: 'Electricity price web',
+      meta: [{ name: 'description', content: 'Electricity prices in Spain' }],
+    },
+  },
 })
